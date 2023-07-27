@@ -1,6 +1,23 @@
 import React from "react";
+import colorsData from "../data/colors.json";
+import CardListItem from "./CardListItem";
 
 const ColorPickerScreen = () => {
+
+    const {colors} = colorsData;
+
+    const renderColorCards = () => {
+        return (
+            colors.map((color) => {
+                return (
+                    <div>
+                        <CardListItem color={color} />
+                    </div>
+                );
+            })
+        );
+    }
+
   return (
     <div
       style={{
@@ -20,7 +37,7 @@ const ColorPickerScreen = () => {
           enthusiast.
         </h4>
       </div>
-      <div>color cards section.</div>
+      <div>{renderColorCards()}</div>
     </div>
   );
 };

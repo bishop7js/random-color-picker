@@ -1,0 +1,28 @@
+{
+    "colors" : [
+        {
+            "id": 1,
+            "colorCode": "rgb(228, 127, 255)"
+        },
+        {
+            "id": 2,
+            "colorCode": "rgb(149, 255, 110)"
+        },
+        {
+            "id": 3,
+            "colorCode": "rgb(245, 114, 98)"
+        },
+        {
+            "id": 4,
+            "colorCode": "rgb(106, 154, 249)"
+        },
+        {
+            "id": 5,
+            "colorCode": "rgb(255, 250, 82)"
+        },
+        {
+            "id": 6,
+            "colorCode": "rgb(205, 92, 92)"
+        }
+    ]
+}
