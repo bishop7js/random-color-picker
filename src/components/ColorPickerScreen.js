@@ -37,7 +37,7 @@ const ColorPickerScreen = () => {
           enthusiast.
         </h4>
       </div>
-      <div>{renderColorCards()}</div>
+      <div style={{display: "flex", flexWrap: "wrap"}}>{renderColorCards()}</div>
     </div>
   );
 };
